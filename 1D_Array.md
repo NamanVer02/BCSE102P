@@ -1,4 +1,4 @@
-## Objectives 
+### Objectives 
 * Insert one element into the array 
 * Insert the given number of elements into the array 
 * Remove the duplicate elements in an array
