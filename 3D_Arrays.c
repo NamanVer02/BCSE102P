@@ -45,7 +45,7 @@ int main()
 
     //Check for non zero values at a position (a, b, c)
     int a = 0, b = 1, c = 1;
-    if (arr[a][b][c] != 0){
+    if (arr[a-1][b-1][c-1] != 0){
         printf("Element at position (%d, %d, %d) is not a zero \n", a, b, c);
     }
     else{
