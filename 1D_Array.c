@@ -120,7 +120,7 @@ int main(){
     }
 
 
-    //Create 2 char arrays and compare
+    //Create 1 char array and compare
 
     //Find sum of all elements
     int sum = 0;
@@ -130,12 +130,25 @@ int main(){
     printf("The sum of %d elements of the array is : %d", n, sum);
     
     
-    //Find maximum n of elements
+    //Find maximum of elements
+    int max;
+    for (int i = 0; i < n; i++){
+        if (arr[i] >= max){
+            max = arr[i];
+        }   
+    }
+    printf("The maximum of the elements of the array is %d", max);
 
-    //Find minimum n of elements
-    
+
+    //Find minimum of elements
+    int min;
+    for (int i = 0; i < n; i++){
+        if (arr[i] <= min){
+            min = arr[i];
+        }      
+    }
+    printf("The minimum of the elements of the array is %d", min);
 
     return 0;
 }
-
 
