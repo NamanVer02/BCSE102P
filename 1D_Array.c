@@ -99,8 +99,7 @@ int main(){
     if (arr[position-1] != 0){
         printf("The element at position %d is not a zero \n", position);
     }
-    else
-    {
+    else{
         printf("The element at postion %d is a zero \n", position);
     }
 
@@ -129,6 +128,12 @@ int main(){
     }
     printf("The sum of %d elements of the array is : %d \n", n, sum);
     
+    
+    //Printing the array for reference
+    for (int i = 0; i < n; i++){
+        printf("%d ", arr[i]);
+    }
+    printf("\n");
     
     //Find maximum of elements
     int max;
