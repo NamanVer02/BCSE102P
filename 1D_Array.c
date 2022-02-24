@@ -127,7 +127,7 @@ int main(){
     for (int i = 0; i < n; i++){
         sum += arr[i];
     }
-    printf("The sum of %d elements of the array is : %d", n, sum);
+    printf("The sum of %d elements of the array is : %d \n", n, sum);
     
     
     //Find maximum of elements
@@ -137,7 +137,7 @@ int main(){
             max = arr[i];
         }   
     }
-    printf("The maximum of the elements of the array is %d", max);
+    printf("The maximum of the elements of the array is %d \n", max);
 
 
     //Find minimum of elements
@@ -147,7 +147,7 @@ int main(){
             min = arr[i];
         }      
     }
-    printf("The minimum of the elements of the array is %d", min);
+    printf("The minimum of the elements of the array is %d \n", min);
 
     return 0;
 }
