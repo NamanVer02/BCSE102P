@@ -3,3 +3,4 @@
 * Arrays and Array Functions
 * Swap Function
 * String Functions
+* Pattern using Loops
