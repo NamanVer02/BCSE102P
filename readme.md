@@ -4,3 +4,4 @@
 * Swap Function
 * String Functions
 * Pattern using Loops
+* Pointers in C
