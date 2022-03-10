@@ -43,9 +43,6 @@ void main(){
    }
 
    printf("Total cost = %d", sum);
-   
-   
-   
 }
 
 
