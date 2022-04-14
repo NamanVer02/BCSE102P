@@ -4,10 +4,23 @@ void my_arithmetic(int* n1, int* n2);
 int my_fact(int n);
 
 int main(){
-    int n1 = 6, n2 = 3, n3 = abs(n1 - n2);
+    int n1, n2, n3;
+    printf("Enter the two numbers seperated by a space : ");
+    scanf("%d %d", &n1, &n2);
+    n3 = abs(n1 - n2);
     int *a = &n1, *b = &n2, *c = &n3;
-    my_arithmetic(a, b);
-    printf("\n%d", my_fact(*c));
+    
+    if (n1 == 0 && n2 == 0){
+        printf("Zeroes");
+    }
+    else if (n2 == 0){
+        printf("Error, division by zero.");
+    }
+    else{
+        my_arithmetic(a, b);
+        printf("\n%d", my_fact(*c));
+    }
+    
     return 0;
 }
 
