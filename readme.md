@@ -5,3 +5,5 @@
 * String Functions
 * Pattern using Loops
 * Pointers in C
+* Relatively Prime Numbers
+* All Test Solutions
